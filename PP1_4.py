@@ -2,31 +2,33 @@
 
 def q1():
   #Write Assignment code here
-  words = input("Hello")
+  words = input("Input a word: ")
   print(words)
 
 def q2():
   #Write Assignment code here
-  word = "Hello " + "Edward"
-  print(word)
+  word1 = input("Input your first name: ")
+  word2 = "Hello " + word1
+  print(word2)
+
 
 def q3():
   #Write Assignment code here
-  words1 =input("Input your first name: ")
-  words2 =input("Input you last name: ")
-  words3 = f"Hello {words1} and {words2}"
-  print("Your name is: "+ words1 + words2)
+  first = input("Input your first name: ")
+  last = input("Input your last name: ")
+  print(last, first)
+
+
 
 def q4():
   #Write Assignment code here
-  student =input("Input a student's name: ")
-  student1 =input("Input another student's name: ")
-  print("Your students are: "  +student + student1)
-
+    student = input("Input a student: ")
+    student1 = input("Input another student: ")
+    print("Your students are " + student + " and " + student1)
 
 #Do not edit code below this comment
 
-q1()
-q2()
-q3()
-q4()
+# q1()
+# q2()
+# q3()
+# q4()
