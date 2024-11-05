@@ -16,15 +16,15 @@ def q3():
   #Write Assignment code here
   first = input("Input your first name: ")
   last = input("Input your last name: ")
-  print(last, first)
+  print(f"{last} {first}")
 
 
 
 def q4():
   #Write Assignment code here
-    student = input("Input a student: ")
-    student1 = input("Input another student: ")
-    print("Your students are " + student + " and " + student1)
+  student = input("Input a student: ")
+  student1 = input("Input another student: ")
+  print("Your students are " + student + " and " + student1)
 
 #Do not edit code below this comment
 
